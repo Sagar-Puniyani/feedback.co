@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Demo For True Feedback App.
 
-## Getting Started
+1. create your accout with unique username ( with email verification).
+   
+  ![image](https://github.com/user-attachments/assets/14996ff6-4791-4b53-baad-4a12b8640366)
 
-First, run the development server:
+  ![image](https://github.com/user-attachments/assets/00fdceda-f688-46c3-9231-cbc866d85f20)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  ![image](https://github.com/user-attachments/assets/e165a207-4f3b-4e32-9226-9afc81fc2e19)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.  having the user to accept the messages or feedback.
+   ![image](https://github.com/user-attachments/assets/6e85af01-7f0f-41f1-a0ae-1c666bbb81a4)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. public profile link shared to make feedback or messages anonymous.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  ![image](https://github.com/user-attachments/assets/2f3ff710-f318-4576-b0a8-f70a5a1d7e80)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   
