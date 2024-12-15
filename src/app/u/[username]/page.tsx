@@ -32,7 +32,7 @@ const parseStringMessages = (messageString: string): string[] => {
 };
 
 const initialMessageString =
-  "What's your favorite movie?||Do you have any pets?||What's your dream job?";
+  "How do you Code daily ? || What language do prefer while coding? || what is your tech stack ?";
 
 export default function SendMessage() {
   const params = useParams<{ username: string }>();
@@ -91,12 +91,17 @@ export default function SendMessage() {
       complete('');
     } catch (error) {
       console.error('Error fetching messages:', error);
-      // Handle error appropriately
+      // how to handle error properly
+      toast({
+        title: 'Error',
+        description: 'Failed to fetch messages',
+        variant: 'destructive',
+      });
     }
   };
 
   return (
-    <div className="container mx-auto my-8 p-6 bg-white rounded max-w-4xl">
+    <div className="container mx-auto my-8 p-6 bg-gray-400 rounded max-w-4xl">
       <h1 className="text-4xl font-bold mb-6 text-center">
         Public Profile Link
       </h1>
